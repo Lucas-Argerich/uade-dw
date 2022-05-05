@@ -20,17 +20,17 @@ header {
     align-items: center;
 }
 
-header .title {
+header .title a {
     display: flex;
     margin: 50px 0;
 }
 
-header img {
+header .title a img {
     object-fit: contain;
 }
 
 
-header .title h1 {
+header .title a h1 {
     font-family: 'Felipa', cursive;
     font-size: 4rem;
     font-weight: 500;
@@ -39,7 +39,7 @@ header .title h1 {
     line-height: 3.5rem;
 }
 
-header .title span {
+header .title a span {
     font-family: 'Felipa', cursive;
     font-size: 2.25rem;
 }
