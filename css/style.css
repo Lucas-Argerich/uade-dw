@@ -1,0 +1,83 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+    background: #0A0A0A;
+    min-height: 100vh;
+    position: relative;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .title {
+    display: flex;
+    align-items: center;
+    margin: 120px 0 80px;
+}
+
+header img {
+    object-fit: contain;
+}
+
+header .title h1 {
+    font-family: 'Felipa', cursive;
+    font-size: 4rem;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 200px;
+}
+
+main a {
+    box-shadow: inset 0 4px 50px #0A0A0A;
+    width: 720px;
+    height: 475px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+main .linkRestaurante {
+    background-image: url("../assets/img/stanford-smith-UezWo2oY4M0-unsplash.png");
+}
+
+main .linkBar {
+    background-image: url("../assets/img/edgar-chaparro-Lwx-q6OdGAc-unsplash.png");
+}
+
+main a h2 {
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+footer {
+    padding: 0 200px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+}
+
+footer a {
+    margin: 0 10px;
+}
