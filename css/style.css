@@ -9,6 +9,10 @@
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+*::selection {
+    background-color: #C6A669;
+} 
+
 body {
     background: #0A0A0A;
     min-height: 100vh;
