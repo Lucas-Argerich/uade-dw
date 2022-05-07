@@ -1,0 +1,137 @@
+
+* {
+    color: #FFFFFF;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0a0a0a;
+}
+
+*::selection {
+    background-color: #C6A669;
+} 
+
+/*HEADER*/
+header {
+    padding: 30px 188px 65.48px 188px;
+}
+
+header .title {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+   
+}
+
+header .title a {
+    /*display: flex;
+    margin: 50px ;*/
+}
+
+header .title a img {
+    float: left;
+    object-fit: contain;
+    width: 106px;
+    height: 158.52px;
+}
+
+header .title a h1 {
+    font-family: 'Felipa';
+    font-style: normal;
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 5.125rem; 
+    display: flex;
+    align-items: center;
+}
+
+header nav{
+    float: right;
+}
+
+header nav ul{
+    display:flex;
+    margin: 10px;
+}
+
+header nav ul li {
+    margin: 0 60px;
+}
+
+header nav ul li a {
+    font-size: 1.5rem;
+}
+
+/*MAIN INICIO*/
+
+main {
+    display: flex;
+    align-items: center;
+    margin-bottom: 107px;
+}
+
+main .titulosInicio {
+    font-weight: 700;
+    font-size: 3.75rem;
+    line-height: 75px;
+    display: flex;
+    
+}
+
+main .ImagenesInicio {
+    float: left;
+    width: 445px;
+    height: 262px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*INICIO NUESTRA TRAYECTORIA*/
+main .nuestraTrayectoria{
+
+}
+
+main .nuestraTrayectoria img {
+    width: 35.46875vw;
+    height: 37.353255069370334vh;
+    float: right;
+    
+}
+
+main .nuestraTrayectoria{
+    
+}
+
+/*ACERCA DE NOSOTROS*/
+main .acercaDeNosotros {
+    padding-bottom: 1000px;
+}
+
+/*INICIO NUESTRO COMPROMISO*/
+main .nuestroCompromiso {
+
+}
+
+
+
+
+
+/*MENU*/
+
+
+/*RESERVAS*/
+
+
+/*LOCALIZACION*/
+
+.ImagenLocalizacion {
+    width: 800px;
+    height: 533.4px;
+
+}
+
