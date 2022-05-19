@@ -17,6 +17,7 @@
 body {
     background: #0A0A0A;
     min-height: 100vh;
+    position: relative;
 }
 
 header {
@@ -61,8 +62,21 @@ header nav ul li a {
     font-size: 1.5rem;
 }
 
+footer {
+    padding: 0 200px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+}
+
+footer a {
+    margin: 0 10px;
+}
+
 main {
-    margin: 0 200px;
+    margin: 50px 200px 0;
     height: 100%;
 }
 
