@@ -49,7 +49,7 @@ header .title a h1 {
 
 header .title a span {
     font-family: 'Felipa', cursive;
-    font-size: 2.25rem;
+    font-size: 1.75rem;
 }
 
 header nav ul {
@@ -132,6 +132,11 @@ main .imagenesInicio .imagen2, main .imagenesInicio .imagen3 {
     header .title a h1 {
         font-size: 4rem;
         line-height: 3.5rem;
+    }
+
+    header .title a span {
+        font-family: 'Felipa', cursive;
+        font-size: 2.25rem;
     }
    
     header nav ul li {
