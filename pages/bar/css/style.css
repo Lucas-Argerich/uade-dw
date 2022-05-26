@@ -114,7 +114,7 @@ main .imagenesInicio div h3 {
     font-weight: 300;
 }
 
-main .imagenesInicio .imagen1 {
+main .imagenesInicio .imagen1 { 
     width: 100%;
     margin-bottom: 5px;   
 }
@@ -152,7 +152,7 @@ main .imagenesInicio .imagen2, main .imagenesInicio .imagen3 {
     }
 
     main {
-        margin: 50px 200px 0; 
+        margin: 50px 100px 0; 
     }
 
     main .imagenesInicio {
@@ -160,20 +160,28 @@ main .imagenesInicio .imagen2, main .imagenesInicio .imagen3 {
         flex-wrap: nowrap;
     }
 
-    main .imagenesInicio .imagen1,main .imagenesInicio .imagen2,main .imagenesInicio .imagen3 {
-        width: auto;
-    } 
+    main .imagenesInicio .imagen1 { 
+        width: 45%;
+        height: 100%;
+        margin-bottom: 5px;   
+    }
+    
+    main .imagenesInicio .imagen2, main .imagenesInicio .imagen3 {
+        width: 20%;
+        height: 100%;
+    }
 
     main .imagenesInicio .imagen2 {
         order: -1
     } 
 
-    main .imagenesInicio div {
-        height: 475px;
-        object-fit: cover;
-    } 
-
     main .imagenesInicio div img {
         height: inherit;
+    }
+}
+
+@media (min-width: 1025px) {
+    main {
+        margin: 50px 200px 0; 
     }
 }
