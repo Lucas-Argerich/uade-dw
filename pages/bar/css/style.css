@@ -17,7 +17,7 @@ body {
     background: #0A0A0A;
     min-height: 100vh;
     position: relative;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 header {
@@ -160,9 +160,20 @@ main .imagenesInicio .imagen2, main .imagenesInicio .imagen3 {
         flex-wrap: nowrap;
     }
 
+    main .imagenesInicio .imagen1,main .imagenesInicio .imagen2,main .imagenesInicio .imagen3 {
+        width: auto;
+    } 
+
     main .imagenesInicio .imagen2 {
         order: -1
     } 
 
-    
+    main .imagenesInicio div {
+        height: 475px;
+        object-fit: cover;
+    } 
+
+    main .imagenesInicio div img {
+        height: inherit;
+    }
 }
