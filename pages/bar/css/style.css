@@ -15,9 +15,9 @@
 
 body {
     background: #0A0A0A;
-    min-height: 100vh;
+    min-height: calc(100vh - 50px);
     position: relative;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 header {
