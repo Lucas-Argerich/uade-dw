@@ -284,6 +284,7 @@ form input {
     margin: 0 0 30px;
     color: #000000;
     height: 25px;
+    border-radius: 5px;
 }
 
 form button {
