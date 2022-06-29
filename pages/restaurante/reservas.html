@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Last Drop Restaurant | Reservas</title>
+
+    <link rel="shortcut icon" href="./assets/img/11243642_817295085005537_3138230077834931180_n-PhotoRoom.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Felipa&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="icon" href="assets/Iconos/IconoTheLastDrop.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="top-nav">
+        <div class="title">
+            <a href="#">
+                <img src="assets/Iconos/IconoTheLastDrop.png" alt="Icono de Marca">
+                <h1>The Last Drop</h1>
+            </a>
+        </div>
+        <input id="menu-toggle" type="checkbox" />
+        <label class='menu-button-container' for="menu-toggle">
+        <div class='menu-button'></div>
+        </label>
+        <ul class="menu">
+            <li><a href="inicio.html" class="link">INICIO</a></li>
+            <li><a href="menu.html" class="link">MENU</a></li>
+            <li><a href="reservas.html" class="link">RESERVAS</a></li>
+            <li><a href="localizacion.html" class="link">LOCALIZACIÓN</a></li>
+        </ul>
+    </header>
+
+    <main class="reservas">
+        <form id="formulario" class="pdm" onsubmit="return verificacionForm()">
+            <h2 class="tituloFormulario">Contacto</h2>
+            <div class="pacodiv">
+                <input id="nombre" class="cajaPregunta1" type="text" autocomplete="on" 
+                maxlength="100" value="Nombre" onfocus="onFocus(this)" onblur="onBlur(this)" required>
+            </div>
+
+            <div class="pacodiv">
+                <input id="mail" class="cajaPregunta1" type="email" autocomplete="on" 
+                maxlength="100" value="Email" onfocus="onFocus(this)" onblur="onBlur(this)" required>
+            </div>
+
+            <div class="pacodiv">
+                <input id="telefono" class="cajaPregunta1" type="tel" autocomplete="on" 
+                maxlength="100" value="Número de teléfono" onfocus="onFocus(this)" onblur="onBlur(this)">
+            </div>
+
+            <div class="pacodiv">
+                <label for="Des" class="pp1">¿Como podemos ayudarte?</label>
+                <textarea id="Des" class="pe2" autocomplete="on" data-max-rows="3" 
+                placeholder="Me gustaría obtener información sobre la disponibilidad y los precios. Necesito ayuda con lo siguiente:" 
+                onfocus="onFocus(this)" onblur="onBlur(this)"  required></textarea>
+            </div>
+
+            <div class="pacodiv">
+                <div class="pb2">
+                    <input class="botonEnviar" type="submit" value="Enviar" onclick="msg()">
+                </div>
+
+            </div>
+
+            
+        </form>
+    </main>
+
+    <footer>
+        <a href="https://www.instagram.com/thelastdrop.official/">
+            <img src="assets/Iconos/InstagramLogoDorado.png" alt="Logo Instagram" class="imagenesRedes">
+            <span>Instagram</span>
+        </a>
+        <a href="https://www.facebook.com/profile.php?id=100081210243179">
+            <img src="assets/Iconos/FacebookLogoDorado.png" alt="Logo Facebook" class="imagenesRedes">
+            <span>Facebook</span>
+        </a>
+    </footer>
+</body>
+
+<script>
+    function onBlur(el) {
+        if (el.value == '') {
+            el.value = el.defaultValue;
+        }
+    }
+    function onFocus(el) {
+        if (el.value == el.defaultValue) {
+            el.value = '';
+        }
+    }
+</script>
+</html>
